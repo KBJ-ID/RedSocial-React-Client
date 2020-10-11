@@ -60,7 +60,7 @@ export default function TweetModal(props) {
             type="submit"
             disabled={message.length > maxLength || message.length < 1}
           >
-            Twittoar
+            nPost
           </Button>
         </Form>
       </Modal.Body>

@@ -9,8 +9,8 @@ import {
 import BasicModal from "../../components/Modal/BasicModal";
 import SignUpForm from "../../components/SignUpForm";
 import SignInForm from "../../components/SignInForm";
-import LogoWhiteTwittor from "../../assets/img/png/logo-white.png";
-import LogoTwittor from "../../assets/img/png/logo.png";
+import LogoWhitenPosting from "../../assets/img/png/logo-white.png";
+import LogonPosting from "../../assets/img/png/logo.png";
 
 import "./SignInSignUp.scss";
 
@@ -46,7 +46,7 @@ export default function SignInSignUp(props) {
 function LeftComponent() {
   return (
     <Col className="signin-signup__left" xs={6}>
-      <img src={LogoTwittor} alt="Twittor" />
+      <img src={LogonPosting} alt="nPosting" />
       <div>
         <h2>
           <FontAwesomeIcon icon={faSearch} />
@@ -73,9 +73,9 @@ function RightComponent(props) {
   return (
     <Col className="signin-signup__right" xs={6}>
       <div>
-        <img src={LogoWhiteTwittor} alt="Twittor" />
+        <img src={LogoWhitenPosting} alt="nPosting" />
         <h2>Mira lo que está pasando en este mundo en este momento </h2>
-        <h3>Únete a Twittor hoy mismo.</h3>
+        <h3>Únete a nPosting hoy mismo.</h3>
         <Button
           variant="primary"
           onClick={() => openModal(<SignUpForm setShowModal={setShowModal} />)}

@@ -28,7 +28,7 @@ export default function LeftMenu(props) {
 
   return (
     <div className="left-menu">
-      <img className="logo" src={LogoWhite} alt="Twittor" />
+      <img className="logo" src={LogoWhite} alt="nPosting" />
 
       <Link to="/">
         <FontAwesomeIcon icon={faHome} /> Inicio
@@ -43,7 +43,7 @@ export default function LeftMenu(props) {
         <FontAwesomeIcon icon={faPowerOff} /> Cerrar Sesión
       </Link>
 
-      <Button onClick={() => setShowModal(true)}>Twittoar</Button>
+      <Button onClick={() => setShowModal(true)}>nPost</Button>
       <TweetModal show={showModal} setShow={setShowModal} />
     </div>
   );

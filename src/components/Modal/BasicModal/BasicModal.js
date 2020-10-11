@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
-import LogoWhiteTwittor from "../../../assets/img/png/logo-white.png";
+import LogoWhitenPosting from "../../../assets/img/png/logo-white.png";
 
 import "./BasicModal.scss";
 
@@ -17,7 +17,7 @@ export default function BasicModal(props) {
     >
       <Modal.Header>
         <Modal.Title>
-          <img src={LogoWhiteTwittor} alt="Twittor" />
+          <img src={LogoWhitenPosting} alt="nPosting" />
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>{children}</Modal.Body>
